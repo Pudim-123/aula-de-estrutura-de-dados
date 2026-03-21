@@ -1,0 +1,35 @@
+#exercício1
+
+idade1 = int(input("coloque a idade: "))
+idade2 = int(input("coloque a idade: "))
+
+if idade1 > idade2:
+   print("idade1 maior")
+elif idade2 > idade1:
+   print("idade2 maior")
+
+else:
+    print("ambas são iguais")
+
+#exercício2
+
+nota = float(input("Insira a nota final da disciplina: "))
+
+if nota >= 7.0:
+    print("Aprovado")
+
+else:
+    print("Reprovado")
+
+#exercício3
+
+n1 = int(input("Digite o número: "))
+n2 = int(input("Digite o segundo número: "))
+n3 = int(input("Digite o terceiro número: "))
+
+if n1 > n2 and n1 > n3:
+    print("n1 maior")
+elif n2 > n1 and n2 >n3:
+    print("n2 maior")
+else:
+    print("n3 maior")
